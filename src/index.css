@@ -1,7 +1,11 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --border-color: #d1d5db;
+  --primary-color: #141413;
+  --light-text-color: #fafaf8;
 }
 
 body {
   margin: 0;
+  font-family: var(--font-family);
 }
